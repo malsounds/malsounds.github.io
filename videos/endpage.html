@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta name="viewport" content="width=device-width", initial scale=1">
+		<title>an interactive portrait</title>
+		<link rel="stylesheet" href="file:///Users/amalbuford/Desktop/CAPSTONE/css/screen.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<div class="video-container">
+	
+			<iframe src="https://player.vimeo.com/video/320387353?autoplay=1&loop=1&muted=1&background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+		</div>
+
+		<div class="endContent">
+
+			<p class = "head1">We thank you so much for watching. Click the button below to go back to the entry portal. Please feel free to input other information, for a chance to see other scenes.
+			</p>
+
+			<p class = "mainP"> Special thanks to Isaiah Lewis, Ezra Clark, Lindsay Turner, Storm Alexander, and Samuel Amaka. </p>
+
+			<button type="submit" class="submit" id="submit">Restart</button>
+
+			<script>
+
+				document.querySelector(".submit").addEventListener('click', advance);
+
+				function advance() {
+					window.location="file:///Users/amalbuford/Desktop/CAPSTONE/index.html";
+				}
+
+			</script>
+
+		</div>
+
+	</body>
+
+</html>

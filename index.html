@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html id = "homepage">
+	<head>
+
+		<meta name="viewport" content="width=device-width", initial scale=1">
+		<title>an interactive portrait</title>
+		<link rel="stylesheet" href="css/screen.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="video-container">
+	
+			<iframe src="https://player.vimeo.com/video/320387353?autoplay=1&loop=1&muted=1&background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+		</div>
+
+		<div class="content">
+
+			<p class = "head1"> black bastards </p>
+			<p class = "head1"> an interactive portrait </p>
+
+			<p class = "mainP"> directed by Amal Buford </p>
+
+			<p class = "mainP"> enter your name, class year, and major</p>
+
+			<form id = "myForm"> 
+
+				<label for="name" class="myLabel"> Name: </label>
+				<input type="text" name="name" id="name" placeholder="Enter Name">
+
+				<p></p>
+
+				<label for="year" class="myLabel"> Class Year: </label>
+				<input type="number" name="year" id="year" placeholder="Class Year">
+			
+				<p></p>
+
+				<select id = "mySelect">
+
+					<option> Major... </option>
+					<option value = "0">American Studies</option>
+					<option value = "0">Anthropology</option>
+					<option value = "0">Sociology</option>
+					<option value = "0">Art & the History of Art</option>
+					<option value = "0">Asian Languages & Civilizations</option>
+					<option value = "1">Biochemistry & Biophysics</option>
+					<option value = "1">Biology</option>
+					<option value = "0">Black Studies</option>
+					<option value = "1">Chemistry</option>
+					<option value = "0">Classics</option>
+					<option value = "1">Computer Science</option>
+					<option value = "0">Economics</option>
+					<option value = "0">English</option>
+					<option value = "0">Environmental Studies</option>
+					<option value = "0">European Studies</option>
+					<option value = "0">Film & Media Studies</option>
+					<option value = "0">French</option>
+					<option value = "1">Geology</option>
+					<option value = "0">German</option>
+					<option value = "0">History</option>
+					<option value = "0">Latinx and Latin American Studies</option>
+					<option value = "0">LJST</option>
+					<option value = "1">Mathematics & Statistics</option>
+					<option value = "0">Music</option>
+					<option value = "1">Neuroscience</option>
+					<option value = "0">Philosophy</option>
+					<option value = "1">Physics & Astronomy</option>
+					<option value = "0">Political Science</option>
+					<option value = "1">Psychology</option>
+					<option value = "0">Religion</option>
+					<option value = "0">Russian</option>
+					<option value = "0">Sexuality, Women's & Gender Studies</option>
+					<option value = "0">Spanish</option>
+					<option value = "0">Theater & Dance</option>
+
+				</select>
+
+			</form>
+
+			<button type="submit" class="submit" id="submit">Enter</button>
+			<script src="app.js">  </script>
+
+			<p class="disclaimer">Disclaimer: Your information will not be saved past this instance of the video experience.</p>
+
+		</div>
+		
+	</body>
+</html>
